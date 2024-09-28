@@ -14,7 +14,7 @@ def error_message_details(error,error_details:sys):
 
     file_name,exe_tb.tb_lineno,str(error) 
     return error_message
-class CustomExeption(Exception) :
+class CustomExeption(Exception):
 
     def __init__(self,error,error_message,error_details:sys):
            super().__init__(error_message)
